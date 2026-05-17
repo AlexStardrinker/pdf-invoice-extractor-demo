@@ -1,0 +1,9 @@
+# Required for the demo
+pdfplumber>=0.11.0    # PDF text extraction
+
+# Uncomment for production / real-Claude mode
+# anthropic>=0.40.0   # multimodal PDF extraction via Claude
+
+# Used only by scripts/generate_sample_invoices.py
+# (skip if you're just running extract.py on your own PDFs)
+reportlab>=4.0.0
