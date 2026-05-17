@@ -1,0 +1,9 @@
+source_file,vendor_name,invoice_number,invoice_date,due_date,subtotal,tax,total,line_item_count,anomaly_count,anomalies
+01_aws_apr.pdf,Amazon Web Services,AWS-2026-0418,2026-04-30,2026-05-30,128.18,0.00,128.18,4,0,
+02_stripe_apr.pdf,"Stripe, Inc.",STR-INV-447821,2026-04-30,2026-05-15,1376.75,0.00,1376.75,3,0,
+03_notion_may.pdf,"Notion Labs, Inc.",NOT-2025-1042,2026-05-01,2026-05-31,432.00,37.80,469.80,1,0,
+04_notion_jun.pdf,"Notion Labs, Inc.",NOT-2025-1042,2026-06-01,2026-06-30,468.00,40.95,508.95,1,1,"Duplicate invoice number from Notion Labs, Inc. — also appears in 03_notion_may.pdf"
+05_adobe_q2.pdf,Adobe Inc.,ADBE-Q2-2026-88412,2026-04-15,2026-05-15,3839.28,335.94,4175.22,2,0,
+06_wework_may.pdf,WeWork Companies LLC,WW-SF-2026-05-0094,2026-05-01,2026-05-10,4195.00,367.06,4562.06,3,0,
+07_supplies_misc.pdf,Misc Supplier,SUPPLY-2025-007,2026-05-08,2026-05-22,2520.00,220.50,3245.50,3,2,"Vague vendor name: 'Misc Supplier' | Math mismatch: subtotal ($2,520.00) + tax ($220.50) = $2,740.50, but printed total is $3,245.50"
+08_linode_apr.pdf,Linode (Akamai Technologies),INV-90217,2026-04-30,,125.00,0.00,125.00,3,1,Missing due date
